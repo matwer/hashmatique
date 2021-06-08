@@ -17,8 +17,8 @@ public class Hashmatique {
         // loop throught the Hashmap
         Set<String> Tracks = trackList.keySet();
         for(String Track : Tracks) {
-            System.out.println(Track);
-            System.out.println(trackList.get(Track));   
+            System.out.println("\nTrack: " + Track);
+            System.out.println("Lyrics: " + trackList.get(Track));   
         }
     }
 }
